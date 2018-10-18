@@ -1,0 +1,31 @@
+.container{
+max-width: 1200px;
+}
+
+.img-fluid{
+    min-height:300px;
+    object-fit: cover;
+} 
+
+.thumb{
+   border: 1px solid black;
+   border-radius: 4px;
+   padding: 5px;
+}
+
+.jumbotron{
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+}
+
+.loginform{
+	max-width:500px;
+	background-color: #f3f3f3;
+	padding:20px;
+	border-radius: 10px;
+	-webkit-box-shadow: 26px 21px 141px -55px rgba(0,0,0,0.75);
+	-moz-box-shadow: 26px 21px 141px -55px rgba(0,0,0,0.75);
+	box-shadow: 26px 21px 141px -55px rgba(0,0,0,0.75);
+
+}
+

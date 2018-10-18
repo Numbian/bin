@@ -1,0 +1,27 @@
+<% include partials/header%>
+
+<h2 class="text-center mt-4" >Add new photo</h2>
+
+<div class="container mt-4 loginform test">
+
+<form action="/photos" method="POST">
+  
+<div class="form-group">
+    <label for="Name">Name</label>
+    <input name="name" type="text" class="form-control" id="Name" placeholder="Image name">
+  </div>
+
+  <div class="form-group">
+    <label for="Image">Image URL</label>
+    <input name="image" type="URL" class="form-control" id="Image" placeholder="Enter image URL">
+  </div>
+
+  
+  <button type="submit" class="btn btn-primary btn-block">Submit</button>
+</form>
+		
+
+</div>
+
+
+<% include partials/footer%>
